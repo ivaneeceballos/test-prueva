@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- estilos -->
+    <link rel="stylesheet" href="estilo.css">
+    <!-- Boxicons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Gimnasio Deporgym</title>
+</head>
+
+<body>
+    <header class="header">
+        <div>
+            <a href="index.html"><img src="src/logo.jpg" alt="logo"  class="logo"></a>
+        </div>
+        <nav class="header__nav">
+            <a href="./index.html">
+                INICIO
+            </a>
+            <a href="./nosotros.html">
+                NOSOTROS
+            </a>
+            <a href="./clientes.html">
+                CLIENTES
+            </a>
+            <a href="./fotos.html">
+                FOTOS
+            </a>
+            <a href="./contactos.html">
+                CONTACTOS
+            </a>
+        </nav>
+    </header>
+    <main class="main">
+
+        <h1 class="main__h1">Gimnasio Deporgym</h1>
+
+        <h2 class="main__h2">Contactanos</h2>
+
+        <div class="main__div--contactos">
+            
+            <div class="div__mapa">
+
+                <iframe class="mapa"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3405.6700714154!2d-64.16163538424887!3d-31.39565960239249!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432981aa8618295%3A0xa1c485362bcf0196!2sSuper%20Deportivo!5e0!3m2!1ses-419!2sar!4v1664479582093!5m2!1ses-419!2sar"
+                     style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+
+            </div>
+
+            
+
+            <form action="" class="form">
+
+                <fieldset class="form__form">
+
+                    <legend class="form__form--label">Contactanos llenando el formulario</legend>
+
+                    <h2>Te contactaremos a la brevedad</h2>
+
+                    <label for="nombreusuario">Nombre</label>
+                    <input id="nombreusuario" type="text" name="nombreusuario" placeholder="Tu nombre"><br>
+
+                    <label for="apellidousuario">Apellido</label>
+                    <input id="apellidousuario" type="text" name="apelliusuario" placeholder="Tu apellido"><br>
+
+                    <label for="email">Email</label>
+                    <input id="email" type="email" name="email" placeholder="Tu email"><br>
+
+                    <label for="telefono">Telefono</label>
+                    <input id="telefono" type="tel" name="telefono" placeholder="Tu telefono"><br>
+
+                    <label for="comentario">Comentario</label><br>
+                    <textarea name="comentario" id="comentario" cols="50" rows="10"
+                        placeholder="Dejanos tu comentario"></textarea><br>
+
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Resetear"><br>
+
+                </fieldset>
+
+            </form>
+        </div>
+    </main>
+
+    <footer class="footer">
+
+        <h2 class="footer__h2">Redes Sociales</h2>
+
+        <div class="footer__div">
+
+            <img src="src/nuestraMision.jpg" alt="" class="img__contactos">
+
+            <div class="footer__div--div">
+
+                <div class="wasapp">
+
+                    <a href="https://api.whatsapp.com/send?phone=3516647555" target="_blank"><i
+                            class='bx bxl-whatsapp bx-sm '></i></a>
+                </div>
+                <div class="facebook">
+                    <a href="https://www.facebook.com/juanpablo.quinteros.566" target="_blank"><i
+                            class='bx bxl-facebook-circle bx-sm'></i></a>
+                </div>
+                <div class="instegram">
+                    <a href="https://www.instagram.com/depor.gym/" target="_blank"><i
+                            class='bx bxl-instagram bx-sm'></i></a>
+                </div>
+            </div>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>

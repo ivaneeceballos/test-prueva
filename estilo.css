@@ -1,0 +1,440 @@
+/**{
+    margin: 0;
+    padding: 0;
+}
+ body {
+    font-family:'Times New Roman', Times, serif ;
+    font-size: larger;
+    font-weight:bold ;
+    font-style: normal;
+    line-height: 1.6 ;
+    text-decoration: none;
+    background-image: url(https://i.pinimg.com/originals/45/11/b6/4511b60646b4aede48f55a2159ce12eb.jpg);
+    background-size: 20%;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: ;
+}*/
+/* header */
+body {
+  color: rgb(241, 247, 247);
+  background-color: #2c2c2c;
+  font-family: "Krub", sans-serif;
+}
+
+.logo {
+  height: 60px;
+  width: 150px;
+  border: 2px aqua solid;
+  border-radius: 10%;
+}
+
+/* header */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+
+.header__nav a {
+  background-color: #2c2c2c;
+  color: aqua;
+  text-decoration: none;
+  border: 3px aqua transparent;
+  border-radius: 10px;
+  margin: 7px;
+  padding: 6px;
+}
+
+.header__nav a:hover {
+  background-color: aqua;
+  color: black;
+}
+
+/* main */
+
+/* .main {} */
+
+.main__h1 {
+  text-align: center;
+  border-bottom: 2px aqua solid;
+  border-top: 2px aqua solid;
+}
+
+.main__h2 {
+  font-size: 30px;
+  text-align: center;
+}
+
+.main__div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.main__div--div {
+  display: flex;
+}
+
+/* .main__section {} */
+
+.main__section--h3 {
+  font-size: 20px;
+  text-align: center;
+}
+
+/* imagen de main */
+
+.main__img {
+  display: flex;
+  justify-content: center;
+}
+
+.imgMain {
+  border: 2px aqua solid;
+  border-radius: 10px;
+  width: 500px;
+  height: 400px;
+
+}
+
+p {
+  font-size: 17px;
+  text-align: center;
+}
+
+.main__section--div {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: stretch;
+}
+
+/* pagina clientes */
+
+.main__table {
+  border: 3px aqua solid;
+  padding: 3px;
+}
+
+.main__tableUno {
+  display: flex;
+  justify-content: center;
+}
+
+/* fin pagina clentes */
+
+/* pagina contactos */
+
+.main__div--contactos {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+}
+.mapa {
+  width:400px ;
+  height:400px ;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form__form {
+  font-size: 15px;
+  border: 3px aqua solid;
+}
+
+.form__form--label {
+  font-size: 20px;
+}
+
+
+/* fin pagina contactos */
+
+/* pagina Nosotros */
+
+.main__div--nosotros {
+  display: flex;
+  flex-direction: column;
+}
+
+.main__div--nosotrosSectionUno {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px aqua solid;
+  border-radius: 5px;
+  margin: 3px;
+  padding: 3px;
+}
+
+.main__div--nosotrosSectionDos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px aqua solid;
+  border-radius: 5px;
+  margin: 3px;
+  padding: 30px;
+}
+
+.main__div--nosotrosSectionTres {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px aqua solid;
+  border-radius: 5px;
+  margin: 3px;
+  padding: 30px;
+  list-style: none;
+}
+
+/* fin de pagina nosotros */
+
+/* pagina fotos */
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  justify-content: center;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "foto-1 foto-2 foto-3"
+    "foto-4 foto-5 foto-6"
+
+}
+
+.container img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+
+
+}
+
+.foto-1 {
+  margin: 10px;
+  padding: 10px;
+  grid-area: foto-1;
+}
+
+.foto-2 {
+  margin: 10px;
+  padding: 10px;
+  grid-area: foto-2;
+}
+
+.foto-3 {
+  margin: 10px;
+  padding: 10px;
+  grid-area: foto-3;
+}
+
+.foto-4 {
+  margin: 10px;
+  padding: 10px;
+  grid-area: foto-4;
+}
+
+.foto-5 {
+  margin: 10px;
+  padding: 10px;
+  grid-area: foto-5;
+}
+
+.foto-6 {
+  margin: 10px;
+  padding: 10px;
+  grid-area: foto-6;
+}
+
+/* fin pagina fotos */
+
+/* footer */
+
+/* .footer {} */
+
+.footer__h2 {
+  text-align: center;
+}
+
+.footer__div {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+.footer__div--div {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  flex-direction: column;
+}
+.img__contactos {
+  height: 250px;
+  width: 400px;
+}
+
+
+
+/* redes sociales iconos */
+.wasapp a {
+  color: green;
+}
+
+.facebook a {
+  color: blue;
+}
+
+.instegram a {
+  color: darksalmon;
+}
+
+/* media queri */
+@media (max-width:768px) {
+
+  /* pagina fotos */
+  .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    justify-content: center;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "foto-1 foto-2 "
+      "foto-4 foto-5 "
+      "foto-3 foto-6";
+
+  }
+
+  /* fin fotos */
+  .header__nav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  /* pagina contacto */
+  .main__div--contactos {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .header {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .main__div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .imgMain {
+    border: 2px aqua solid;
+    border-radius: 10px;
+    width: 450px;
+    height: 400px;
+  }
+
+  /* ubicacion */
+  .div__mapa {
+    margin: 20px 0 0 0;
+  }
+  .mapa {
+    width: 300px;
+    height: 300px;
+  }
+  /* footer */
+  .img__contactos {
+    height: 300px;
+    width: 300px;
+  }
+  
+}
+
+/* celulares */
+@media (max-width:480px) {
+
+  .container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    justify-content: center;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "foto-1"
+      "foto-2"
+      "foto-4"
+      "foto-5"
+      "foto-3"
+      "foto-6";
+
+  }
+
+  /* pagina contacto */
+  .main__div--contactos {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+
+  /* fin pagina contacto */
+
+  .header {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    flex-direction: column;
+  }
+
+  .imgMain {
+    border: 2px aqua solid;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+  }
+
+  .footer__div {
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+
+  .footer__div--div {
+    display: flex;
+    flex-direction: row;
+  }
+  .img__contactos {
+    height: 300px;
+    width: 300px;
+  }
+
+  /* ubicacion */
+  .div__mapa {
+    margin: 20px 0 0 0;
+  }
+  .mapa {
+    width: 300px;
+    height: 200px;
+  }
+
+}
